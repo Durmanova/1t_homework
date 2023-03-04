@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+/*header*/
+.header {
+    background-color: rgb(64, 53, 65);
+    color: whitesmoke;
+    padding: 30px 150px;
+}
+
+.header-wrapper {
+    display: flex;
+
+}
+
+.header-avatar {
+    border-radius: 100px;
+    width: 140px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.header-title {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-text {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*main*/
+
+.title {
+    color: rgb(64, 53, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    line-height: 80px;
+}
+
+/*objective*/
+.objective {
+    background-color: whitesmoke;
+    padding: 30px 150px;
+}
+
+.objective-text {
+    color: rgb(64, 53, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 25px;
+}
+
+/*experience*/
+.experience {
+    background-color: whitesmoke;
+    padding: 30px 150px;
+}
+
+.experience-wrapper {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.experience-subtitle {
+    color: rgb(64, 53, 65);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience-text {
+    padding-left: 179px;
+    color: rgb(64, 53, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.experience-date {
+    padding-right: 85px;
+    color: rgb(64, 53, 65);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ex_subtitle {
+    padding-left: 15px;
+}
+
+/*skills*/
+.skills {
+    background-color: whitesmoke;
+    padding: 30px 150px;
+}
+
+.skills-text {
+    color: rgb(64, 53, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 25px;
+}
+
+/*language*/
+.language {
+    background-color: whitesmoke;
+    padding: 30px 150px;
+}
+
+.language-list {
+    list-style: none;
+    color: rgb(64, 53, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.language-element::before {
+
+    content: "\25A0  ";
+    color: rgb(64, 53, 65);
+}
+
+/*form*/
+.comment {
+    background-color: rgb(230, 216, 216);
+    padding: 30px 150px;
+}
+
+.comment-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 710px;
+}
+
+
+.comment-title {
+    text-align: center;
+}
+
+.comment-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment-text {
+    height: 20px;
+    width: 350px;
+    border: none;
+    border-bottom: 3px solid;
+    border-bottom-color: rgb(64, 53, 65);
+    background-color: rgb(230, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment-email {
+    height: 20px;
+    width: 350px;
+    border: none;
+    border-bottom: 3px solid;
+    border-bottom-color: rgb(64, 53, 65);
+    background-color: rgb(230, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment-message {
+    width: 710px;
+    height: 20px;
+    border: none;
+    border-bottom: 3px solid;
+    border-bottom-color: rgb(64, 53, 65);
+    background-color: rgb(230, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    margin-top: 10px;
+}
+
+.comment-subtitle {
+    color: rgb(64, 53, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.comment-submit {
+    background-color: rgb(64, 53, 65);
+    color: whitesmoke;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+.comment-submit:hover {
+    opacity: 50%;
+}
+
+/*footer*/
+.footer {
+    background-color: rgb(64, 53, 65);
+    padding: 20px 150px;
+}
+
+.footer-title {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link:hover {
+    color: rgb(230, 216, 216);
+}
+
+.footer-link {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+
+.footer-rights {
+    display: flex;
+    justify-content: center;
+    line-height: 25px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 0px 20px;
+    opacity: 50%;
+}
